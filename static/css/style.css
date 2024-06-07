@@ -4,6 +4,10 @@ body {
     color: #00ffcc;
     margin: 0;
     padding: 0;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 header {
@@ -120,7 +124,7 @@ a:hover {
 }
 
 .analysis-content, .news-feed, .expert-comments, .weekly-reports, .portfolio-tracker, .performance-analysis, .personalized-recommendations, .financial-calculators, .guides-tutorials, .api-integration, .discussion-forums, .webinars-events, .social-media, .team, .partners {
-    background: #1a1a1a;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -128,7 +132,7 @@ a:hover {
 }
 
 article {
-    background: #333333;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -147,3 +151,29 @@ article p {
 article a {
     color: #ff6600;
 }
+
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+section div{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+p h4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+  

@@ -1,0 +1,149 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #1a1a1a, #333333);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #00ffcc;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: linear-gradient(90deg, #1a1a1a, #333333);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+    color: #00ffcc;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    /* background: url('../images/banner.jpg') no-repeat center center; */
+    background-size: cover;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.chart-container {
+    position: relative;
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    color: #00ffcc;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+.analysis-content, .news-feed, .expert-comments, .weekly-reports, .portfolio-tracker, .performance-analysis, .personalized-recommendations, .financial-calculators, .guides-tutorials, .api-integration, .discussion-forums, .webinars-events, .social-media, .team, .partners {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+article {
+    background: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+article h4 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+article p {
+    margin: 0 0 10px;
+}
+
+article a {
+    color: #ff6600;
+}
